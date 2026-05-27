@@ -1,0 +1,113 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+.topo{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+font-size:25px;
+}
+
+.icons i{
+margin-left:15px;
+cursor:pointer;
+}
+
+.banner{
+padding:40px 25px;
+background:#1b1b1b;
+}
+
+.banner h1{
+font-size:45px;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.banner p{
+font-size:20px;
+font-weight:bold;
+}
+
+.cards{
+display:flex;
+gap:15px;
+padding:20px;
+overflow:auto;
+}
+
+.card{
+min-width:250px;
+background:#222;
+border-radius:10px;
+overflow:hidden;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.categorias{
+display:flex;
+overflow:auto;
+padding:15px;
+background:#1b1b1b;
+}
+
+.categorias button{
+background:none;
+border:none;
+color:white;
+font-size:17px;
+margin-right:25px;
+cursor:pointer;
+}
+
+.ativo{
+border-bottom:2px solid white;
+}
+
+.produtos{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+padding:15px;
+}
+
+.produto{
+background:#222;
+padding:10px;
+border-radius:10px;
+text-align:center;
+}
+
+.produto img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.produto p{
+margin-top:10px;
+}
+
+.produto span{
+font-weight:bold;
+}
